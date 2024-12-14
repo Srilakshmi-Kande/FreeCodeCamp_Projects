@@ -1,0 +1,118 @@
+body{
+    width:400px;
+    background-color: RGBA(0,0,0,80%);
+    margin-left: 40%;
+  }
+  
+  .header{
+    position:fixed;
+    width:380px;
+    height:30px;
+    background-color:red;
+    padding-top:10px;
+    padding-right:10px;
+    opacity:80%;
+  }
+  
+  #navbar{
+    display:flex;
+    align-content: center;
+    justify-content: right;
+    gap:10px;
+  }
+  
+  #welcome-section h1{
+    text-align: center;
+    padding:250px 50px 0 50px;
+    color:white;
+  }
+  
+  #welcome-section h3{
+    color:red;
+    opacity:80%;
+    
+  }
+  
+  #welcome-section p{
+      padding-bottom:250px;
+      text-align:center;
+      color:RGB(0,120,200);
+  }
+  
+  .about_me{
+    width:380px;
+    height:350px;
+    background-color: turquoise;
+    padding-top:10px;
+  }
+  
+  .about_me p{
+    font-style: italic;
+  }
+  
+  #projects{
+    width:380px;
+    height:600px;
+    background-color:rgba(0,0,250,50%);
+  }
+  
+  #projects h1{
+    text-align: center;
+    color:white;
+    padding-top:10px;
+  }
+  
+  .project-tile {
+    border: 2px solid;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    margin-bottom: 10px;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    background: linear-gradient(45deg, #ffffff  0%, #ffe6e6 100%);
+  }
+  #project-1 {
+    grid-column: 1/2;
+  }
+  #project-2 {
+    grid-column: 2/3;
+  }
+  #project-3 {
+    grid-column: 1/2;
+  }
+  #project-4 {
+    grid-column: 2/3;
+  }
+  
+  @media (max-width: 600px) {
+    #projects {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  #Contact {
+     width:380px;
+     height:400px;
+  }
+  
+  #Contact h1 {
+     
+     text-align:center;
+     padding-top:150px;
+     color:white;
+  }
+  
+  .icons{
+  
+     padding-top:170px;
+     padding-left:100px;
+    display: flex;
+    flex-direction:column;
+   
+  }
+  
+  .special{
+    font-size:40px;
+    color:#c0c0c0;
+     padding-left:50px;
+  }

@@ -1,0 +1,49 @@
+html{
+    box-sizing:border-box ;
+  }
+  
+  
+  body{
+    margin-left: 40%;
+    width:380px;
+  }
+  
+  #navbar header 
+  {
+    text-align:center;
+    font-weight:bold;
+    font-size:26px;
+  }
+  
+  p{
+    text-align:left;
+  }
+  
+  
+  .structure{
+    width:250px;
+    height:200px;
+    background-color:#5e5e5e;
+    align-content:center;
+    justify-content:center;
+  }
+  
+  div{
+    width:250px;
+    height:120px;
+    background-color:#5e5e5e;
+    align-content:center;
+    justify-content:center;
+  }
+  
+  header {
+  
+    font-weight:bold;
+  }
+  
+  
+  @media (max-width:786px){
+    #HELLO_WORLD{
+      max-width:350px;
+    }
+  }
